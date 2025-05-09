@@ -1,5 +1,4 @@
 # Document Retriever based on FAISS and SentenceTransformers
-
 A simple and extensible local document retriever using FAISS and SentenceTransformers. Supports `.txt`, `.md`, and `.pdf` files.
 
 ---
@@ -37,6 +36,8 @@ nlp_proj_hw_w3\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## How to use the **Retriever class**?
 ### Example
@@ -79,12 +80,18 @@ run the `main.py` using the following command
 python -m main 
 ```
 
+---
+
 ## Run unit test file
 ```bash
 python -m pytest test_retriever.py
 ```
 **Note**: Some test cases might fail, as the current version of the retriever approach has certain limitations or shortcomings.
 
+---
+
 ## Frequent Error and Solution:
 1. pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program.
    * **solution**: use terminal or powershell for windows and run `python -m pip install pytest`. Then it should be possible to run the unit test file.
+---
+**Group**: `@Team Oneironauts`
