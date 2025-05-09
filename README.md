@@ -37,3 +37,16 @@ Activate the virtual environment
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Run unit test file
+```bash
+    python -m pytest test_retriever.py
+    #or
+    
+```
+**Note**: Some test cases might fail, as the current version of the retriever approach has certain limitations or shortcomings.
+
+## Frequent Error and Solution:
+1. pytest : The term 'pytest' is not recognized as the name of a cmdlet, function, script file, or operable program.
+   *. solution: use terminal or powershell for windows and run `python -m pip install pytest`. Then it should be possible to run the unit test file.
