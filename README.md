@@ -27,10 +27,10 @@ python -m venv nlp_proj_hw_w3
 
 Activate the virtual environment
 ```bash
-    # On macOS/Linux:
-    source nlp_proj_hw_w3/bin/activate
-    # On Windows:
-    nlp_proj_hw_w3\Scripts\activate
+# On macOS/Linux:
+source nlp_proj_hw_w3/bin/activate
+# On Windows:
+nlp_proj_hw_w3\Scripts\activate
 ```
 
 **Step 3**: Install dependencies
@@ -41,9 +41,7 @@ pip install -r requirements.txt
 
 ## Run unit test file
 ```bash
-    python -m pytest test_retriever.py
-    #or
-    
+python -m pytest test_retriever.py
 ```
 **Note**: Some test cases might fail, as the current version of the retriever approach has certain limitations or shortcomings.
 
