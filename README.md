@@ -38,6 +38,41 @@ nlp_proj_hw_w3\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Example of how to use the **Retriever class** 
+```python
+# file: main.py
+from pathlib import Path
+from retriever import Retriever
+
+if __name__ == '__main__':
+    #create the object
+    retriever = Retriever()
+    
+    # add documents
+    documents_base_path = Path("documents")
+    retriever.add_documents([
+        documents_base_path / "demo.txt",
+        documents_base_path / "demo.md",
+        documents_base_path / "demo.pdf"
+        # add more or less
+    ])
+
+    # persist/save the indexing in the memory for future use
+    retriever.save("sentence_embeddings_index")
+
+    # run a query
+    print(retriever.query("When was the QuantumLink v2.0 launched?"))
+
+    # create another object
+    new_retriever = Retriever()
+
+    # load the previously persisted indexing for search
+    new_retriever.load("sentence_embeddings_index")
+
+    # run more queries
+    print(new_retriever.query("Disk space required to install visual studio", k=2))
+    print(new_retriever.query("How many mb of disk space required to install visual studio", k=3))
+```
 
 ## Run unit test file
 ```bash
