@@ -38,7 +38,8 @@ nlp_proj_hw_w3\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Example of how to use the **Retriever class** 
+## How to use the **Retriever class**?
+### Example
 ```python
 # file: main.py
 from pathlib import Path
