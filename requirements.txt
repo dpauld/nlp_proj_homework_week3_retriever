@@ -1,0 +1,5 @@
+faiss-cpu               # FAISS vector index
+torch                   # ML framework (required by sentence-transformers)
+sentence-transformers   # Sentence embeddings
+pymupdf                 # For PDF handling (fitz)
+numpy                   # Numerical backend for FAISS

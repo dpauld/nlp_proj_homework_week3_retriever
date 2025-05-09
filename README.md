@@ -14,19 +14,26 @@ A simple and extensible local document retriever using FAISS and SentenceTransfo
 ---
 
 ## 🛠 Installation
-
+**Step 1**: download the code in your device.
 ```bash
-git clone https://github.com/yourusername/homework_week3_retriever.git
-cd homework_week3_retriever
+git clone https://github.com/yourusername/nlp_proj_homework_week3_retriever.git
+cd nlp_proj_homework_week3_retriever
+```
 
-# (Optional) Create a virtual environment
-python -m venv homework_w3_retriever
+(Optional) Step 2: Create a virtual environment
+```bash
+python -m venv nlp_proj_hw_w3
+```
 
-# Activate the virtual environment
-# On macOS/Linux:
-source homework_w3_retriever/bin/activate
-# On Windows:
-homework_w3_retriever\Scripts\activate
+Activate the virtual environment
+```bash
+    # On macOS/Linux:
+    source nlp_proj_hw_w3/bin/activate
+    # On Windows:
+    nlp_proj_hw_w3\Scripts\activate
+```
 
-# Install dependencies
+**Step 3**: Install dependencies
+```bash
 pip install -r requirements.txt
+```
