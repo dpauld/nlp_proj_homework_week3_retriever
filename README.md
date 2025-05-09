@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/nlp_proj_homework_week3_retriever.git
 cd nlp_proj_homework_week3_retriever
 ```
 
-(Optional) Step 2: Create a virtual environment
+(Optional) **Step 2**: Create a virtual environment
 ```bash
 python -m venv nlp_proj_hw_w3
 ```
