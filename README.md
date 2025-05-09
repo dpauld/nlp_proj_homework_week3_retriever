@@ -1,5 +1,5 @@
 # Document Retriever based on FAISS and SentenceTransformers
-A simple and extensible local document retriever using FAISS and SentenceTransformers. Supports `.txt`, `.md`, and `.pdf` files.
+A simple and extensible local document retriever using FAISS and SentenceTransformers. It supports `.txt`, `.md`, and `.pdf` files.
 
 ---
 
