@@ -74,6 +74,10 @@ if __name__ == '__main__':
     print(new_retriever.query("Disk space required to install visual studio", k=2))
     print(new_retriever.query("How many mb of disk space required to install visual studio", k=3))
 ```
+run the `main.py` using the following command 
+```bash
+python -m main 
+```
 
 ## Run unit test file
 ```bash
